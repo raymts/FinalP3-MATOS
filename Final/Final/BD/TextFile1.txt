@@ -1,0 +1,8 @@
+﻿Aqui colocaremos los codigos que se necesita para crear la BD 
+Example:
+
+create database CentroMedico;
+
+use CentroMedico
+
+create table Admin (User Varchar2(20), PassVarchar2(20));
