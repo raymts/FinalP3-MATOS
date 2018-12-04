@@ -14,15 +14,7 @@ namespace Final.Controllers
             return View();
         }
 
-        // GET: Login/Details/5
-        public ActionResult Login (string user, string pass)
-        {
-            if("admin".Equals(user) && "123".Equals(pass))
-            {
 
-            }
-            return View();
-        }
       
     }
 }
