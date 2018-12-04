@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f3510e4242446b38f1f58fb6851c833" Name="Diagram1">
+        <EntityTypeShape EntityType="basedatoFinal3Model.asistente" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.cita" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.consulta" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.doctor" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.paciente" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.receta" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.visita" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="basedatoFinal3Model.recaudado" Width="1.5" PointX="8" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="basedatoFinal3Model.FK__cita__cedula__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="basedatoFinal3Model.FK__cita__tipo_consu__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="basedatoFinal3Model.FK__recaudado__id_do__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="basedatoFinal3Model.FK__visita__cedula__22AA2996" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
